@@ -1,11 +1,12 @@
-# 1. Firebase Depolyment
-    - npx create-react-app firebase-hosting-demo
-    - npm install firebase-tools -g
-    - firebase login
-    - firebase init
-        - Select Hosting: Configure and deploy Firebase Hosting sites.
-        - Select Use an existing project
-        - build 
-        - Yes
-        - No
-    - firebase deploy        
+# 1. React Bootstrap setup
+    - npx create-react-app react-bootstrap-setup
+    - npm i boostrap jquery popper.js
+    - Install below packages
+        - Bootstrap
+        - JQuery
+        - Popper.js
+    - Import your index.js files
+        - import 'bootstrap/dist/css/bootstrap.css'
+        - import "jquery/dist/jquery"
+        - import "popper.js/dist/umd/popper"
+        - import 'bootstrap/dist/js/bootstrap'
